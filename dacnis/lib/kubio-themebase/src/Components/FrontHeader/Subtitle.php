@@ -46,7 +46,7 @@ class Subtitle extends \ColibriWP\Theme\Components\FrontHeader\Subtitle {
 
 				),
 				"{$prefix}localProps.content" => array(
-					'default' => Defaults::get( 'lorem_ipsum' ),
+					'default' => __("Unlock new possibilities and embrace fresh ideas designed to inspire innovation. Whether you're building, creating, or exploring, our theme gives you the tools to transform your vision into reality.", 'dacnis'),
 					'control' => array(
 						'label'       => Translations::get( 'subtitle' ),
 						'type'        => 'input',

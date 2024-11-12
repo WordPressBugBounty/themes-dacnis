@@ -241,11 +241,11 @@ $dacnis_gradients                     = array(
 		),
 
 );
-$dacnis_theme_action_button           = __( 'Discover', 'dacnis' );
-$dacnis_theme_action_button_secondary = __( 'Contact us', 'dacnis' );
+$dacnis_theme_action_button           =  'Discover';
+$dacnis_theme_action_button_secondary =  'Contact us';
 
-$dacnis_theme_click_pen_to_edit_title = __( 'Discover New Perspectives', 'dacnis' );
-$dacnis_lorem_ipsum                   = __("Unlock new possibilities and embrace fresh ideas designed to inspire innovation. Whether you're building, creating, or exploring, our theme gives you the tools to transform your vision into reality.", 'dacnis');
+$dacnis_theme_click_pen_to_edit_title = 'Discover New Perspectives';
+$dacnis_lorem_ipsum                   = "Unlock new possibilities and embrace fresh ideas designed to inspire innovation. Whether you're building, creating, or exploring, our theme gives you the tools to transform your vision into reality.";
 
 
 return array(
@@ -710,29 +710,4 @@ return array(
 	'blog_posts_per_row'                => 2,
 	'blog_enable_masonry'               => true,
 
-	'front_page_designs'                => array(
-		array(
-			'name'    => __( 'Modern', 'dacnis' ),
-			'index'   => 1,
-			'preview' => 'front-page-1.jpg',
-		),
-
-		array(
-			'name'    => __( 'Fullscreen', 'dacnis' ),
-			'index'   => 2,
-			'preview' => 'front-page-2.jpg',
-		),
-
-		array(
-			'name'    => __( 'Classic', 'dacnis' ),
-			'index'   => 3,
-			'preview' => 'front-page-3.jpg',
-		),
-
-		array(
-			'name'    => __( '', 'dacnis' ),
-			'index'   => 4,
-			'preview' => 'admin/ai-icon.svg',
-		),
-	),
 );

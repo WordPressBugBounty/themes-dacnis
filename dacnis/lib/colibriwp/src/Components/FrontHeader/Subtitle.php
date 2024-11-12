@@ -31,7 +31,7 @@ class Subtitle extends ComponentBase {
 
 			'settings' => array(
 				"{$prefix}show"               => array(
-					'default'   => Defaults::get( "{$prefix}show" ),
+					'default'   => __("Unlock new possibilities and embrace fresh ideas designed to inspire innovation. Whether you're building, creating, or exploring, our theme gives you the tools to transform your vision into reality.", 'dacnis'),
 					'transport' => 'refresh',
 					'control'   => array(
 						'label'       => Translations::get( 'show_subtitle' ),
