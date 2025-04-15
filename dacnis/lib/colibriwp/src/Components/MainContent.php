@@ -97,14 +97,14 @@ class MainContent extends ComponentBase {
 					),
 				),
 				'blog_post_thumb_placeholder_color' => array(
-					'default'    => Defaults::get( 'blog_post_thumb_placeholder_color' ),
-					'control'    => array(
+					'default'      => Defaults::get( 'blog_post_thumb_placeholder_color' ),
+					'control'      => array(
 						'label'       => Translations::get( 'thumbnail_placeholder_color' ),
 						'type'        => 'color',
 						'section'     => 'content',
 						'colibri_tab' => 'content',
 					),
-					'css_output' => array(
+					'css_output'   => array(
 						array(
 							'selector' => '.wp-block-kubio-post-featured-image',
 							'media'    => CSSOutput::NO_MEDIA,
@@ -113,7 +113,7 @@ class MainContent extends ComponentBase {
 					),
 					'active_rules' => array(
 						array(
-							'setting'  => "blog_show_post_thumb_placeholder",
+							'setting'  => 'blog_show_post_thumb_placeholder',
 							'operator' => '=',
 							'value'    => true,
 						),

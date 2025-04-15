@@ -29,14 +29,14 @@
 				<div class="wp-block wp-block-kubio-column  position-relative wp-block-kubio-column__container dacnis-front-header__k__9IGHpldIpw-container dacnis-local-164-container d-flex h-col-lg-auto h-col-md-auto h-col-auto" data-kubio="kubio/column">
 					<div class="position-relative wp-block-kubio-column__inner dacnis-front-header__k__9IGHpldIpw-inner dacnis-local-164-inner d-flex h-flex-basis h-px-lg-3 v-inner-lg-3 h-px-md-2 v-inner-md-3 h-px-3 v-inner-3">
 						<div class="position-relative wp-block-kubio-column__align dacnis-front-header__k__9IGHpldIpw-align dacnis-local-164-align h-y-container h-column__content h-column__v-align flex-basis-100 align-self-lg-center align-self-md-center align-self-center">
-							<?php dacnis_theme()->get('front-title')->render(); ?><?php dacnis_theme()->get('front-subtitle')->render(); ?><?php dacnis_theme()->get('buttons')->render(); ?>
+							<?php dacnis_theme()->get( 'front-title' )->render(); ?><?php dacnis_theme()->get( 'front-subtitle' )->render(); ?><?php dacnis_theme()->get( 'buttons' )->render(); ?>
 						</div>
 					</div>
 				</div>
 				<div class="wp-block wp-block-kubio-column  position-relative wp-block-kubio-column__container dacnis-front-header__k__grZqVAqgp-container dacnis-local-173-container d-flex h-col-lg-auto h-col-md-auto h-col-auto" data-kubio="kubio/column">
 					<div class="position-relative wp-block-kubio-column__inner dacnis-front-header__k__grZqVAqgp-inner dacnis-local-173-inner d-flex h-flex-basis h-px-lg-3 v-inner-lg-3 h-px-md-3 v-inner-md-3 h-px-3 v-inner-3">
 						<div class="position-relative wp-block-kubio-column__align dacnis-front-header__k__grZqVAqgp-align dacnis-local-173-align h-y-container h-column__content h-column__v-align flex-basis-100 align-self-lg-center align-self-md-center align-self-center">
-							<?php dacnis_theme()->get('front-image')->render(); ?>
+							<?php dacnis_theme()->get( 'front-image' )->render(); ?>
 						</div>
 					</div>
 				</div>

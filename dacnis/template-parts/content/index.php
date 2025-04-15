@@ -8,23 +8,25 @@
 							<div class="wp-block wp-block-kubio-query  position-relative wp-block-kubio-query__container dacnis-index__k__CtKC_EuIZL-container dacnis-local-372-container" data-kubio="kubio/query">
 								<div class="wp-block wp-block-kubio-query-loop  position-relative wp-block-kubio-query-loop__container dacnis-index__k__vrf0UGkWrN-container dacnis-local-373-container gutters-row-lg-2 gutters-row-v-lg-0 gutters-row-md-2 gutters-row-v-md-0 gutters-row-0 gutters-row-v-0" data-kubio="kubio/query-loop" data-kubio-component="masonry" data-kubio-settings="{&quot;enabled&quot;:&quot;1&quot;,&quot;targetSelector&quot;:&quot;.wp-block-kubio-query-loop__inner&quot;}">
 									<div class="position-relative wp-block-kubio-query-loop__inner dacnis-index__k__vrf0UGkWrN-inner dacnis-local-373-inner h-row">
-										<?php dacnis_theme()->get('archive-loop')->render(array (
-  'view' => 'content/index/loop-item',
-)); ?>
+										<?php dacnis_theme()->get( 'archive-loop' )->render(
+											array(
+												'view' => 'content/index/loop-item',
+											)
+										); ?>
 									</div>
 								</div>
-								<?php if(dacnis_has_pagination()): ?>
+								<?php if ( dacnis_has_pagination() ) : ?>
 								<div class="wp-block wp-block-kubio-query-pagination  position-relative wp-block-kubio-query-pagination__container dacnis-index__k__vD7AVCTELY-container dacnis-local-384-container gutters-row-lg-2 gutters-row-v-lg-2 gutters-row-md-2 gutters-row-v-md-2 gutters-row-0 gutters-row-v-2" data-kubio="kubio/query-pagination">
 									<div class="position-relative wp-block-kubio-query-pagination__inner dacnis-index__k__vD7AVCTELY-inner dacnis-local-384-inner h-row align-items-lg-stretch align-items-md-stretch align-items-stretch justify-content-lg-center justify-content-md-center justify-content-center gutters-col-lg-2 gutters-col-v-lg-2 gutters-col-md-2 gutters-col-v-md-2 gutters-col-0 gutters-col-v-2">
 										<div class="wp-block wp-block-kubio-column  position-relative wp-block-kubio-column__container dacnis-index__k__tBYU0uM8Xx-container dacnis-local-385-container d-flex h-col-lg-auto h-col-md-auto h-col-auto" data-kubio="kubio/column">
 											<div class="position-relative wp-block-kubio-column__inner dacnis-index__k__tBYU0uM8Xx-inner dacnis-local-385-inner d-flex h-flex-basis h-px-lg-0 v-inner-lg-2 h-px-md-0 v-inner-md-2 h-px-0 v-inner-2">
 												<div class="position-relative wp-block-kubio-column__align dacnis-index__k__tBYU0uM8Xx-align dacnis-local-385-align h-y-container h-column__content h-column__v-align flex-basis-auto align-self-lg-center align-self-md-center align-self-center">
-													<?php if(dacnis_has_pagination_button(true)): ?>
+													<?php if ( dacnis_has_pagination_button( true ) ) : ?>
 													<div class="position-relative wp-block-kubio-pagination-nav-button__spacing dacnis-index__k__ELgmeRXRD--spacing dacnis-local-386-spacing">
 														<span class="wp-block wp-block-kubio-pagination-nav-button  position-relative wp-block-kubio-pagination-nav-button__outer dacnis-index__k__ELgmeRXRD--outer dacnis-local-386-outer kubio-button-container" data-kubio="kubio/pagination-nav-button">
-															<a class="position-relative wp-block-kubio-pagination-nav-button__link dacnis-index__k__ELgmeRXRD--link dacnis-local-386-link h-w-100 h-global-transition" href="<?php dacnis_get_navigation_button_link(true); ?>">
+															<a class="position-relative wp-block-kubio-pagination-nav-button__link dacnis-index__k__ELgmeRXRD--link dacnis-local-386-link h-w-100 h-global-transition" href="<?php dacnis_get_navigation_button_link( true ); ?>">
 																<span class="position-relative wp-block-kubio-pagination-nav-button__text dacnis-index__k__ELgmeRXRD--text dacnis-local-386-text kubio-inherit-typography">
-																	<?php esc_html_e('Previous', 'dacnis'); ?>
+																	<?php esc_html_e( 'Previous', 'dacnis' ); ?>
 																</span>
 															</a>
 														</span>
@@ -45,12 +47,12 @@
 										<div class="wp-block wp-block-kubio-column  position-relative wp-block-kubio-column__container dacnis-index__k__2nd5yuWmz9-container dacnis-local-389-container d-flex h-col-lg-auto h-col-md-auto h-col-auto" data-kubio="kubio/column">
 											<div class="position-relative wp-block-kubio-column__inner dacnis-index__k__2nd5yuWmz9-inner dacnis-local-389-inner d-flex h-flex-basis h-px-lg-0 v-inner-lg-2 h-px-md-0 v-inner-md-2 h-px-0 v-inner-2">
 												<div class="position-relative wp-block-kubio-column__align dacnis-index__k__2nd5yuWmz9-align dacnis-local-389-align h-y-container h-column__content h-column__v-align flex-basis-auto align-self-lg-center align-self-md-center align-self-center">
-													<?php if(dacnis_has_pagination_button()): ?>
+													<?php if ( dacnis_has_pagination_button() ) : ?>
 													<div class="position-relative wp-block-kubio-pagination-nav-button__spacing dacnis-index__k__ELgmeRXRD--spacing dacnis-local-390-spacing">
 														<span class="wp-block wp-block-kubio-pagination-nav-button  position-relative wp-block-kubio-pagination-nav-button__outer dacnis-index__k__ELgmeRXRD--outer dacnis-local-390-outer kubio-button-container" data-kubio="kubio/pagination-nav-button">
 															<a class="position-relative wp-block-kubio-pagination-nav-button__link dacnis-index__k__ELgmeRXRD--link dacnis-local-390-link h-w-100 h-global-transition" href="<?php dacnis_get_navigation_button_link(); ?>">
 																<span class="position-relative wp-block-kubio-pagination-nav-button__text dacnis-index__k__ELgmeRXRD--text dacnis-local-390-text kubio-inherit-typography">
-																	<?php esc_html_e('Next', 'dacnis'); ?>
+																	<?php esc_html_e( 'Next', 'dacnis' ); ?>
 																</span>
 															</a>
 														</span>

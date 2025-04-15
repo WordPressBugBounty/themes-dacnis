@@ -223,9 +223,9 @@ abstract class ComponentBase implements ConfigurableInterface, PartialComponentI
 						?>
 						<style>
 							@media (min-width: 768px) {
-                                <?php echo $selector; ?> > .customize-partial-edit-shortcut {
-                                    right: -30px;
-                                }
+								<?php echo $selector; ?> > .customize-partial-edit-shortcut {
+									right: -30px;
+								}
 							}
 						</style>
 						<?php

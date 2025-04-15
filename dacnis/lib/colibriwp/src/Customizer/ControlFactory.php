@@ -148,7 +148,7 @@ class ControlFactory {
 				$data = static::prepareJSOutputControl( $setting_id, $data );
 			}
 
-			if($data['transport'] === 'js_and_css_output'){
+			if ( $data['transport'] === 'js_and_css_output' ) {
 				$data = static::prepareCSSOutputControl( $setting_id, $data );
 				$data = static::prepareJSOutputControl( $setting_id, $data );
 			}

@@ -29,15 +29,14 @@ class Navigation extends NavBar {
 		echo esc_attr( implode( ' ', $classes ) );
 	}
 
-	public function printNavLayoutType(){
-		$prefix  = static::getPrefix();
+	public function printNavLayoutType() {
+		$prefix      = static::getPrefix();
 		$layout_type = $this->mod( "{$prefix}props.layoutType", Defaults::get( "{$prefix}props.layoutType", 'logo-spacing-menu' ) );
 
-		if($layout_type === 'logo-spacing-menu'){
-			echo esc_attr( "has-logo-spacing-menu" );
-		}
-		else if($layout_type === 'logo-above-menu'){
-			echo esc_attr( "has-logo-above-menu" );
+		if ( $layout_type === 'logo-spacing-menu' ) {
+			echo esc_attr( 'has-logo-spacing-menu' );
+		} elseif ( $layout_type === 'logo-above-menu' ) {
+			echo esc_attr( 'has-logo-above-menu' );
 		}
 	}
 }

@@ -110,6 +110,6 @@ class Title extends ComponentBase {
 			$value = get_bloginfo( 'name' );
 		}
 
-		echo str_replace( array("\r\n", "\r", "\n", "\\n"), '<br/>', $value );
+		echo str_replace( array( "\r\n", "\r", "\n", "\\n" ), '<br/>', $value );
 	}
 }

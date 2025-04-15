@@ -46,15 +46,15 @@ class NavigationStyle extends NavBarStyle {
 								),
 						),
 					),
-					'js_output' => array(
+					'js_output'  => array(
 						array(
 							'selector' => $this->selector,
 							'action'   => 'set-class',
 							'value'    => array(
 								'logo-spacing-menu' => 'has-logo-spacing-menu',
 								'logo-above-menu'   => 'has-logo-above-menu',
-							)
-						)
+							),
+						),
 					),
 					'css_output' => array(
 						array(

@@ -31,12 +31,16 @@
 											<div class="background-layer background-layer-media-container"></div>
 										</div>
 										<div class="position-relative wp-block-kubio-column__align dacnis-header__k__X9OwCZ9kCO8-align dacnis-local-682-align h-y-container h-column__content h-column__v-align flex-basis-100 align-self-lg-center align-self-md-center align-self-center">
-											<?php dacnis_theme()->get('logo')->render(array (
-  'wrapper_class' => 'wp-block wp-block-kubio-logo position-relative wp-block-kubio-logo__container  kubio-logo-direction-row dacnis-header__k__u4AOkK1zRds-container dacnis-local--container',
-  'logo_image_class' => 'position-relative wp-block-kubio-logo__image  kubio-logo-image  dacnis-header__k__u4AOkK1zRds-image dacnis-local--image',
-  'alt_logo_image_class' => 'position-relative wp-block-kubio-logo__alternateImage kubio-logo-image kubio-alternate-logo-image   dacnis-header__k__u4AOkK1zRds-alternateImage dacnis-local--alternateImage',
-  'logo_text_class' => 'position-relative wp-block-kubio-logo__text  dacnis-header__k__u4AOkK1zRds-text dacnis-local--text',
-)); ?>
+											<?php
+											dacnis_theme()->get( 'logo' )->render(
+												array(
+													'wrapper_class'        => 'wp-block wp-block-kubio-logo position-relative wp-block-kubio-logo__container  kubio-logo-direction-row dacnis-header__k__u4AOkK1zRds-container dacnis-local--container',
+													'logo_image_class'     => 'position-relative wp-block-kubio-logo__image  kubio-logo-image  dacnis-header__k__u4AOkK1zRds-image dacnis-local--image',
+													'alt_logo_image_class' => 'position-relative wp-block-kubio-logo__alternateImage kubio-logo-image kubio-alternate-logo-image   dacnis-header__k__u4AOkK1zRds-alternateImage dacnis-local--alternateImage',
+													'logo_text_class'      => 'position-relative wp-block-kubio-logo__text  dacnis-header__k__u4AOkK1zRds-text dacnis-local--text',
+												)
+											);
+											?>
 										</div>
 									</div>
 								</div>

@@ -20,7 +20,7 @@
 							<div class="background-layer background-layer-media-container"></div>
 						</div>
 						<div class="position-relative wp-block-kubio-column__align dacnis-front-header__k__urE63sDCSD4-align dacnis-local-128-align h-y-container h-column__content h-column__v-align flex-basis-100 align-self-lg-center align-self-md-center align-self-center">
-							<?php dacnis_theme()->get('top-bar-list-icons')->render(); ?>
+							<?php dacnis_theme()->get( 'top-bar-list-icons' )->render(); ?>
 						</div>
 					</div>
 				</div>
@@ -32,7 +32,7 @@
 							<div class="background-layer background-layer-media-container"></div>
 						</div>
 						<div class="position-relative wp-block-kubio-column__align dacnis-front-header__k__nQSFKAGbqMg-align dacnis-local-136-align h-y-container h-column__content h-column__v-align flex-basis-100 align-self-lg-center align-self-md-center align-self-center">
-							<?php dacnis_theme()->get('top-bar-social-icons')->render(); ?>
+							<?php dacnis_theme()->get( 'top-bar-social-icons' )->render(); ?>
 						</div>
 					</div>
 				</div>

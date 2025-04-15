@@ -29,7 +29,7 @@
 				<div class="wp-block wp-block-kubio-column  position-relative wp-block-kubio-column__container dacnis-header__k__vPVKm6K-swr-container dacnis-local-691-container d-flex h-col-lg-auto h-col-md-auto h-col-auto" data-kubio="kubio/column">
 					<div class="position-relative wp-block-kubio-column__inner dacnis-header__k__vPVKm6K-swr-inner dacnis-local-691-inner d-flex h-flex-basis h-px-lg-2 v-inner-lg-2 h-px-md-2 v-inner-md-2 h-px-2 v-inner-2">
 						<div class="position-relative wp-block-kubio-column__align dacnis-header__k__vPVKm6K-swr-align dacnis-local-691-align h-y-container h-column__content h-column__v-align flex-basis-100 align-self-lg-center align-self-md-center align-self-center">
-							<?php dacnis_theme()->get('inner-title')->render(); ?>
+							<?php dacnis_theme()->get( 'inner-title' )->render(); ?>
 						</div>
 					</div>
 				</div>

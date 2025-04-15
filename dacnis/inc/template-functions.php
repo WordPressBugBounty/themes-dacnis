@@ -5,25 +5,25 @@ use ColibriWP\Theme\Defaults;
 function dacnis_theme_print_footer_copyright() {
 	?>
 	<div class="h-global-transition-all">
-        <p>
-            &copy; <?php echo date( 'Y' ); ?> <?php bloginfo( 'blogname' ); ?>.
-            <?php
-            printf(
-                __( 'Created with ❤️ using WordPress and %s', 'dacnis' ),
-                '<a target="_blank" rel="noreferrer" href="https://kubiobuilder.com/">Kubio</a>'
-            );
-            ?>
-        </p>
-    </div>
+		<p>
+			&copy; <?php echo date( 'Y' ); ?> <?php bloginfo( 'blogname' ); ?>.
+			<?php
+			printf(
+				__( 'Created with ❤️ using WordPress and %s', 'dacnis' ),
+				'<a target="_blank" rel="noreferrer" href="https://kubiobuilder.com/">Kubio</a>'
+			);
+			?>
+		</p>
+	</div>
 	<?php
 }
 
 function dacnis_theme_print_menu_footer_copyright() {
-    ?>
-    <div class="h-global-transition-all">
-        &copy; <?php echo date( 'Y' ); ?> <?php bloginfo( 'blogname' ); ?>
-    </div>
-    <?php
+	?>
+	<div class="h-global-transition-all">
+		&copy; <?php echo date( 'Y' ); ?> <?php bloginfo( 'blogname' ); ?>
+	</div>
+	<?php
 }
 
 function dacnis_print_color_scheme() {

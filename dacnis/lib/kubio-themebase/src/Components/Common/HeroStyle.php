@@ -628,7 +628,7 @@ class HeroStyle extends BaseHeroStyle {
 					'section'        => 'hero',
 					'item_label'     => Translations::get( 'slide_n' ),
 					'item_add_label' => Translations::get( 'add_slide' ),
-                    'min'            => 2,
+					'min'            => 2,
 					'fields'         => array(
 						'url' => array(
 							'type'    => 'image',
@@ -985,7 +985,7 @@ class HeroStyle extends BaseHeroStyle {
 	}
 
 	protected function getSpacingSettings( $prefix ) {
-        $style_prefix = self::STYLE_PREFIX;
+		$style_prefix = self::STYLE_PREFIX;
 
 		return array(
 			"{$prefix}hero.separator1"            => array(

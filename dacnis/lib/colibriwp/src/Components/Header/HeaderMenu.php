@@ -64,9 +64,9 @@ class HeaderMenu extends ComponentBase {
 	 * @return array();
 	 */
 	protected static function getContentOptions() {
-		$prefix   = static::$settings_prefix;
-		$selector = '[data-kubio-component="dropdown-menu"]';
-        $hamburger_menu_selector = "[data-kubio='kubio/menu-offscreen']";
+		$prefix                  = static::$settings_prefix;
+		$selector                = '[data-kubio-component="dropdown-menu"]';
+		$hamburger_menu_selector = "[data-kubio='kubio/menu-offscreen']";
 
 		$menu_choices = array( 0 => Translations::get( 'no_menu' ) );
 		$menus        = wp_get_nav_menus();
@@ -177,20 +177,20 @@ class HeaderMenu extends ComponentBase {
 			"{$prefix}props.hoverEffect.group.border.transition" => array(
 				'default' => Defaults::get( "{$prefix}props.hoverEffect.group.border.transition" ),
 				'control' => array(
-					'label'       => Translations::get( 'button_hover_effect' ),
-					'type'        => 'linked-select',
-					'linked_to'   => "{$prefix}props.hoverEffect.type",
-					'section'     => "{$prefix}section",
-					'colibri_tab' => 'style',
-					'transport'   => 'selective_refresh',
-                    'active_rules' => array(
-                        array(
-                            'setting'  => "{$prefix}props.hoverEffect.type",
-                            'operator' => '!=',
-                            'value'    => 'none',
-                        ),
-                    ),
-					'choices'     =>
+					'label'        => Translations::get( 'button_hover_effect' ),
+					'type'         => 'linked-select',
+					'linked_to'    => "{$prefix}props.hoverEffect.type",
+					'section'      => "{$prefix}section",
+					'colibri_tab'  => 'style',
+					'transport'    => 'selective_refresh',
+					'active_rules' => array(
+						array(
+							'setting'  => "{$prefix}props.hoverEffect.type",
+							'operator' => '!=',
+							'value'    => 'none',
+						),
+					),
+					'choices'      =>
 						array(
 							'bordered-active-item bordered-active-item--bottom' => array(
 								'effect-none'        => Translations::escHtml( 'none' ),
@@ -361,18 +361,18 @@ class HeaderMenu extends ComponentBase {
 		echo esc_attr( $container_classes );
 	}
 
-    public function printNavigationTypeClasses() {
-        $prefix = static::$settings_prefix;
-        $layout_type = $this->mod("{$prefix}props.layoutType");
+	public function printNavigationTypeClasses() {
+		$prefix      = static::$settings_prefix;
+		$layout_type = $this->mod( "{$prefix}props.layoutType" );
 
-        if ($layout_type === 'logo-spacing-menu') {
-            return 'has-logo-spacing-menu';
-        } else if ($layout_type === 'logo-above-menu') {
-            return "has-logo-above-menu";
-        }
+		if ( $layout_type === 'logo-spacing-menu' ) {
+			return 'has-logo-spacing-menu';
+		} elseif ( $layout_type === 'logo-above-menu' ) {
+			return 'has-logo-above-menu';
+		}
 
-        return "";
-    }
+		return '';
+	}
 
 	function colibriNomenuFallback() {
 		$customClasses          = $this->attrs['classes'];

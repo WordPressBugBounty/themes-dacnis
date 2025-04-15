@@ -24,32 +24,32 @@ class Hero extends ComponentBase {
 		$prefix = static::$settings_prefix;
 		$result = array(
 			'settings' => array(
-				"{$prefix}.pen" => array(
+				"{$prefix}.pen"               => array(
 					'control' => array(
 						'type'    => 'pen',
 						'section' => 'hero',
 					),
 				),
-				"{$prefix}props.useWhiteText"               => array(
-					'default'   => Defaults::get( "{$prefix}props.useWhiteText" ),
-					'transport' => 'refresh',
-					'control'   => array(
-						'label'       => "",
+				"{$prefix}props.useWhiteText" => array(
+					'default'    => Defaults::get( "{$prefix}props.useWhiteText" ),
+					'transport'  => 'refresh',
+					'control'    => array(
+						'label'       => '',
 						'type'        => 'hidden',
 						'section'     => 'hero',
 						'colibri_tab' => 'content',
 					),
 					'css_output' => array(
 						array(
-							'selector' => '#hero [data-kubio-partial-refresh=title] .wp-block-kubio-heading',
-							'property' => 'color',
-							'true_value'    => 'rgb(255, 255, 255)',
+							'selector'   => '#hero [data-kubio-partial-refresh=title] .wp-block-kubio-heading',
+							'property'   => 'color',
+							'true_value' => 'rgb(255, 255, 255)',
 						),
 						array(
-							'selector' => '#hero [data-kubio-partial-refresh=subtitle] .wp-block-kubio-text',
-							'property' => 'color',
-							'true_value'    => 'rgba(255, 255, 255, .95)',
-						)
+							'selector'   => '#hero [data-kubio-partial-refresh=subtitle] .wp-block-kubio-text',
+							'property'   => 'color',
+							'true_value' => 'rgba(255, 255, 255, .95)',
+						),
 					),
 				),
 			),

@@ -14,7 +14,7 @@ use Exception;
 class Header extends ComponentBase {
 
 	protected static function getOptions() {
-        $front_page_selector = '.header.header-front-page';
+		$front_page_selector = '.header.header-front-page';
 
 		return array(
 			'settings' => array(),

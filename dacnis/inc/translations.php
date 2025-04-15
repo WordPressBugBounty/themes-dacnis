@@ -285,22 +285,22 @@ return array(
 	'installing'                              => __( 'Installing %s', 'dacnis' ),
 	'activating'                              => __( 'Activating %s', 'dacnis' ),
 	'preparing_front_page_installation'       => __( 'Preparing Front Page installation', 'dacnis' ),
-    'would_you_like_to_install_front_page'    => __( "Would you like to generate a homepage using AI? It's fast and FREE!", 'dacnis' ),
-    'theme_description'                       => __( "%s uses an AI page generator to create a homepage that is adapted to your website. Here’s what you’ll get:", 'dacnis' ),
-    'install_homepage_with_ai'                => __( 'Generate homepage with AI', 'dacnis' ),
-    'install_default_homepage'                => __( 'No thanks, install the default homepage', 'dacnis' ),
+	'would_you_like_to_install_front_page'    => __( "Would you like to generate a homepage using AI? It's fast and FREE!", 'dacnis' ),
+	'theme_description'                       => __( '%s uses an AI page generator to create a homepage that is adapted to your website. Here’s what you’ll get:', 'dacnis' ),
+	'install_homepage_with_ai'                => __( 'Generate homepage with AI', 'dacnis' ),
+	'install_default_homepage'                => __( 'No thanks, install the default homepage', 'dacnis' ),
 	'plugin_installed_and_active'             => __( 'Active', 'dacnis' ),
 	'skip_to_content'                         => __( 'Skip to content', 'dacnis' ),
 	'change_header_design'                    => __( 'Choose header design', 'dacnis' ),
 	'change_footer_design'                    => __( 'Choose footer design', 'dacnis' ),
-	'dont_show_anymore'                    => __( "Don't show anymore", 'dacnis' ),
+	'dont_show_anymore'                       => __( "Don't show anymore", 'dacnis' ),
 	'add_section'                             => __( 'Add Predefined Section', 'dacnis' ),
-    'benefit_1'                               => __( 'A homepage customized for your website', 'dacnis' ),
-    'benefit_2'                               => __( 'Texts and images based on your website subject', 'dacnis' ),
-    'benefit_3'                               => __( 'Matching color scheme and typography', 'dacnis' ),
-    'benefit_4'                               => __( 'Contact form and social media integration', 'dacnis' ),
+	'benefit_1'                               => __( 'A homepage customized for your website', 'dacnis' ),
+	'benefit_2'                               => __( 'Texts and images based on your website subject', 'dacnis' ),
+	'benefit_3'                               => __( 'Matching color scheme and typography', 'dacnis' ),
+	'benefit_4'                               => __( 'Contact form and social media integration', 'dacnis' ),
 	'start_with_a_front_page_plugin_info'     => __(
-        'Any of these actions will also install the Kubio Page Builder plugin.',
+		'Any of these actions will also install the Kubio Page Builder plugin.',
 		'dacnis'
 	),
 
@@ -309,15 +309,15 @@ return array(
 		'dacnis'
 	),
 
-    // Kubio themebase
-    'themebase_step1_title' => __( 'What would you like to display on your front page?', 'dacnis' ),
-    'themebase_step1_option1_title' => __( 'Custom Home Page', 'dacnis' ),
-    'themebase_step1_option1_subtitle' => __( 'Choose this if you\'re building a presentation website', 'dacnis' ),
-    'themebase_step2_title' => __( 'Would you like to generate a new homepage using AI? It\'s fast & FREE!', 'dacnis' ),
-    'themebase_step2_option1_title' => __( 'Latest Blog Posts', 'dacnis' ),
-    'themebase_step2_option1_subtitle' => __( 'Choose this if you\'re building a blog or a content website', 'dacnis' ),
-    'themebase_step2_button1' => __( 'Generate Homepage', 'dacnis' ),
-    'themebase_step2_button2' => __( 'No thanks, install the default homepage', 'dacnis' ),
-    'themebase_step2_footer_info' => __( '*Any of these actions will also install the Kubio Page Builder plugin.', 'dacnis' ),
+	// Kubio themebase
+	'themebase_step1_title'                   => __( 'What would you like to display on your front page?', 'dacnis' ),
+	'themebase_step1_option1_title'           => __( 'Custom Home Page', 'dacnis' ),
+	'themebase_step1_option1_subtitle'        => __( 'Choose this if you\'re building a presentation website', 'dacnis' ),
+	'themebase_step2_title'                   => __( 'Would you like to generate a new homepage using AI? It\'s fast & FREE!', 'dacnis' ),
+	'themebase_step2_option1_title'           => __( 'Latest Blog Posts', 'dacnis' ),
+	'themebase_step2_option1_subtitle'        => __( 'Choose this if you\'re building a blog or a content website', 'dacnis' ),
+	'themebase_step2_button1'                 => __( 'Generate Homepage', 'dacnis' ),
+	'themebase_step2_button2'                 => __( 'No thanks, install the default homepage', 'dacnis' ),
+	'themebase_step2_footer_info'             => __( '*Any of these actions will also install the Kubio Page Builder plugin.', 'dacnis' ),
 
 );

@@ -15,7 +15,7 @@ class NavBarStyle extends PartialComponent {
 
 	public function __construct( $prefix, $selector ) {
 		$this->prefix   = $prefix;
-		$this->selector = $selector . ":not(.extra-1)";
+		$this->selector = $selector . ':not(.extra-1)';
 	}
 
 	public static function getInstance( $prefix, $selector ) {

@@ -31,12 +31,16 @@
 											<div class="background-layer background-layer-media-container"></div>
 										</div>
 										<div class="position-relative wp-block-kubio-column__align dacnis-front-header__k__dySu33XviAE-align dacnis-local-155-align h-y-container h-column__content h-column__v-align flex-basis-100 align-self-lg-center align-self-md-center align-self-center">
-											<?php dacnis_theme()->get('logo')->render(array (
-  'wrapper_class' => 'wp-block wp-block-kubio-logo position-relative wp-block-kubio-logo__container  kubio-logo-direction-row dacnis-front-header__k__nVjkPY2tu-container dacnis-local--container',
-  'logo_image_class' => 'position-relative wp-block-kubio-logo__image  kubio-logo-image  dacnis-front-header__k__nVjkPY2tu-image dacnis-local--image',
-  'alt_logo_image_class' => 'position-relative wp-block-kubio-logo__alternateImage kubio-logo-image kubio-alternate-logo-image   dacnis-front-header__k__nVjkPY2tu-alternateImage dacnis-local--alternateImage',
-  'logo_text_class' => 'position-relative wp-block-kubio-logo__text  dacnis-front-header__k__nVjkPY2tu-text dacnis-local--text',
-)); ?>
+											<?php
+											dacnis_theme()->get( 'logo' )->render(
+												array(
+													'wrapper_class'        => 'wp-block wp-block-kubio-logo position-relative wp-block-kubio-logo__container  kubio-logo-direction-row dacnis-front-header__k__nVjkPY2tu-container dacnis-local--container',
+													'logo_image_class'     => 'position-relative wp-block-kubio-logo__image  kubio-logo-image  dacnis-front-header__k__nVjkPY2tu-image dacnis-local--image',
+													'alt_logo_image_class' => 'position-relative wp-block-kubio-logo__alternateImage kubio-logo-image kubio-alternate-logo-image   dacnis-front-header__k__nVjkPY2tu-alternateImage dacnis-local--alternateImage',
+													'logo_text_class'      => 'position-relative wp-block-kubio-logo__text  dacnis-front-header__k__nVjkPY2tu-text dacnis-local--text',
+												)
+											);
+											?>
 										</div>
 									</div>
 								</div>

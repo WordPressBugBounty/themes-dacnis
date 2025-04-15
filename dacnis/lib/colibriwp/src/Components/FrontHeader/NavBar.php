@@ -82,18 +82,18 @@ class NavBar extends ComponentBase {
 		echo esc_attr( implode( ' ', $classes ) );
 	}
 
-    public function printNavigationTypeClasses() {
-        $prefix = static::getPrefix();
-        $layout_type = $this->mod("{$prefix}props.layoutType");
+	public function printNavigationTypeClasses() {
+		$prefix      = static::getPrefix();
+		$layout_type = $this->mod( "{$prefix}props.layoutType" );
 
-        if ($layout_type === 'logo-spacing-menu') {
-            return 'has-logo-spacing-menu';
-        } else if ($layout_type === 'logo-above-menu') {
-            return "has-logo-above-menu";
-        }
+		if ( $layout_type === 'logo-spacing-menu' ) {
+			return 'has-logo-spacing-menu';
+		} elseif ( $layout_type === 'logo-above-menu' ) {
+			return 'has-logo-above-menu';
+		}
 
-        return "";
-    }
+		return '';
+	}
 
 	public function printContainerClasses() {
 		$classes = array();
