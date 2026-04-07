@@ -91,7 +91,7 @@ class Theme extends ThemeBase {
 
 		if ( $this->shouldDisplayAdminNotice() ) :
 			?>
-			<div class="notice notice-success is-dismissible dacnis-admin-big-notice notice-large">
+			<div class="kubio-notice notice notice-success is-dismissible dacnis-admin-big-notice notice-large">
 				<?php View::make( 'admin/admin-notice-frontpage' ); ?>
 			</div>
 			<script>
