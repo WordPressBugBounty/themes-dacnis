@@ -4,39 +4,32 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit7b55f36fcd3ddb0ae30b9278cf5bd7b1
+class ComposerStaticInit5f5599a87487d63b61040d3967abed3e
 {
     public static $prefixLengthsPsr4 = array (
-        'D' => 
+        'D' =>
         array (
             'DacnisTheme\\SiteLeadsThemeKit\\' => 30,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'DacnisTheme\\SiteLeadsThemeKit\\' => 
+        'DacnisTheme\\SiteLeadsThemeKit\\' =>
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
     );
 
     public static $classMap = array (
-        'DacnisTheme\\SiteLeadsThemeKit\\Bootstrap' => __DIR__ . '/../..' . '/src/Bootstrap.php',
-        'DacnisTheme\\SiteLeadsThemeKit\\Customizer\\Controls\\SiteLeadsIntegrationButton' => __DIR__ . '/../..' . '/src/Customizer/Controls/SiteLeadsIntegrationButton.php',
-        'DacnisTheme\\SiteLeadsThemeKit\\Customizer\\Sections\\SiteLeadsSection' => __DIR__ . '/../..' . '/src/Customizer/Sections/SiteLeadsSection.php',
-        'DacnisTheme\\SiteLeadsThemeKit\\Flags' => __DIR__ . '/../..' . '/src/Flags.php',
-        'DacnisTheme\\SiteLeadsThemeKit\\Hooks' => __DIR__ . '/../..' . '/src/Hooks.php',
-        'DacnisTheme\\SiteLeadsThemeKit\\Singleton' => __DIR__ . '/../..' . '/src/Singleton.php',
-        'DacnisTheme\\SiteLeadsThemeKit\\SiteLeads' => __DIR__ . '/../..' . '/src/SiteLeads.php',
-        'DacnisTheme\\SiteLeadsThemeKit\\Theme' => __DIR__ . '/../..' . '/src/Theme.php',
+        'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit7b55f36fcd3ddb0ae30b9278cf5bd7b1::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit7b55f36fcd3ddb0ae30b9278cf5bd7b1::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit7b55f36fcd3ddb0ae30b9278cf5bd7b1::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit5f5599a87487d63b61040d3967abed3e::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit5f5599a87487d63b61040d3967abed3e::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit5f5599a87487d63b61040d3967abed3e::$classMap;
 
         }, null, ClassLoader::class);
     }
